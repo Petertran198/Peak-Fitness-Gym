@@ -21,7 +21,6 @@ body, html {
   height: 100%;
   font-family: 'Lato', sans-serif;
 
-
 }
 
 .bg {
@@ -175,8 +174,22 @@ ul hr{
 
 /* About Page */
 .bg-warning{
-  background: linear-gradient(to top left, #e65c00, #f9d423); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right top, #f9d423, #e65c00);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg-warning2{
+  background: linear-gradient(to left bottom, #e65c00, #f9d423); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* border for about page header */
+.about-border{
+  border-top: 1px solid #008ed6;
+  border-bottom: 1px solid #008ed6;
 
 }
 
-
+/* border for about pg circle */
+.circle-border{
+  border: 1px double #f9d423;
+}
