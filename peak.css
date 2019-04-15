@@ -58,7 +58,7 @@ ul hr{
 .card-overlay{
   height: 100%;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.2)
   );
 }
@@ -102,34 +102,7 @@ ul hr{
   background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.testimonial:before,
-.testimonial:after {
-    position: absolute;
-    content:"";
-    width: 0;
-    height: 0;
-    top:100%;
-    left: 60%;
-    border-left: 0px solid transparent;
 
-}
-
-.testimonial:before {
-
-    border-right: 34px solid transparent;
-    border-top: 34px solid black;
-    z-index:1;
-
-}
-
-.testimonial:after {
-    margin-top: -1px;
-    margin-left:1px;
-    border-right: 34px solid transparent;
-    border-top: 34px solid #808080;
-    opacity: .8;
-    z-index:2;
-}
 
 #home-section {
   background: url(../img/home.jpg);
@@ -212,4 +185,12 @@ ul hr{
 }
 .border-radius{
   border-radius: 20px;
+}
+.icon-color{
+  color: white;
+}
+.h1-style-md{
+  font-size: 3.5rem;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #121212;
 }
