@@ -147,7 +147,7 @@ ul hr{
 
 /* About Page */
 .bg-warning{
-  background: linear-gradient(to right top, #f9d423, #e65c00);
+  background: linear-gradient(to right top, #e5c734, #e65c00);
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -162,10 +162,6 @@ ul hr{
 
 }
 
-/* border for about pg circle */
-.circle-border{
-  border: 1px double #f9d423;
-}
 
 
 /* Contact PAGE */
