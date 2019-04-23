@@ -71,8 +71,10 @@ ul hr{
 }
 
 .btn-warning{
-  background-color: #d37f0c;
-  border: 10px solid #d37f0c;
+  background: linear-gradient(to right top, #e5c734, #e65c00);
+  border: 1px solid #e5c734;
+  height: 60px;
+  width: 200px;
 }
 .index-margin{
   margin-top: 12rem;
